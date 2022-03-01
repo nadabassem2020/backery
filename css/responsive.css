@@ -1,0 +1,51 @@
+/* small devices and smart phones */
+@media screen and (max-width:768px) {
+    .btn {
+        padding: 16px 16px;
+    }
+
+    .header .navbar .navbar-links {
+        width: 100%;
+        margin-top: 16px;
+        text-align: center;
+    }
+
+    .header .navbar .logo {
+        margin: auto;
+        float: none;
+    }
+
+    .header .navbar .navbar-links {
+        padding: 8px;
+    }
+
+    .header .banner div p {
+        font-size: 18px;
+        width: 90%;
+    }
+
+    .about .about-img,
+    .about .about-content,
+    .location .location-info,
+    .location .location-img,
+    .map .map-info,
+    .map .g-map,
+    .baking .baking-cards .baking-card,
+    .footer .footer-part {
+        width: 100%;
+    }
+
+
+    .baking .baking-cards .baking-card div p {
+        padding: 0 16px;
+    }
+}
+/* smart phones only */
+@media screen and (min-width:576px) and (max-width:768px) {
+
+    .baking .baking-cards .baking-card,
+    .footer .footer-part {
+        width: 50%;
+        margin-bottom: 32px;
+    }
+}

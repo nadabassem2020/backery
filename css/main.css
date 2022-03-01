@@ -1,0 +1,342 @@
+/* general-style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button{
+    border: none;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,.btn{
+    font-family: 'Alegreya', serif;
+}
+p,a{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+p{
+    font-size: 17px;
+    color: #686868;
+}
+h2{
+    font-size: 32px;
+    color: #303030;
+    font-weight: normal;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+/* helper classes */
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.clr-fix{
+    clear: both;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.btn{
+    padding: 16px 32px;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid #fff;
+}
+.bg-gray{
+    background-color: #f8f8f8;
+}
+/* header */
+.header{
+    background-image: url("../images/drew-coffman-1872.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.header .navbar{
+    color: #fff;
+    padding: 16px 0;
+    background-color: rgba(32, 32, 32, .1);
+}
+.header .navbar .logo{
+    width: 200px;
+  
+}
+.header .navbar .logo img{
+    width: 100%;
+}
+.header .navbar .navbar-links{
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+    padding: 16px 0;
+
+}
+.header .navbar .navbar-links a{
+    color: #fff;
+}
+.header .navbar .navbar-links span{
+    padding:16px;
+}
+.header .navbar .navbar-links .active-nav{
+    border-top: 3px solid #ae9768;
+}
+.header .navbar .navbar-links .active-nav a{
+    color: #e0dcd2;
+}
+.header .banner {
+    text-align: center;
+    color: #fff;
+    padding: 64px 0;
+}
+.header .banner p{
+    color: #fff;
+}
+.header .banner .btn:first-child{
+    background-color: #ae9768;
+    border:none
+}
+.header .banner div{
+    padding: 32px;
+}
+.header .banner div h1{
+    font-size: 76px;
+    text-transform: capitalize;
+    margin: 32px 0;
+}
+.header .banner div p{
+    font-size: 24px;
+    width: 50%;
+    margin: auto;
+}
+.header .banner .buttons{
+    margin-bottom: 64px;
+}
+.header .banner .up-button{
+    width: 30px;
+    height: 50px;
+    border: 1px solid #fff;
+    padding: 0;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin:0 auto;
+}
+.about{
+    padding: 64px 0;
+}
+.about .about-img,.about .about-content{
+    width: 50%;
+}
+.about .about-img img{
+    width: 100%;
+}
+.about .about-img div{
+    padding: 0 32px;
+}
+.about .about-content div{
+    padding: 64px 32px;
+}
+.about .about-content div h2{
+    font-size: 32px;
+    color: #303030;
+    text-transform: capitalize;
+    font-weight: normal;
+    margin: 0 0 16px;
+}
+.about .about-content div p{
+    font-size: 17px;
+    color: #686868;
+    line-height: 1.5;
+    margin: 16px 0;
+}
+.about .about-content div ul{
+    list-style-type: none;
+    margin: 16px 0;
+}
+.about .about-content div ul li{
+    margin: 16px 0;
+    color: #686868;
+}
+.about .about-content div ul li svg{
+    color: #ae9768;
+    border: 1px solid #ae9768;
+    width: 25px;
+    height: 25px;
+    font-size: 24px ;
+    padding: 8px;
+    margin-right: 16px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* location */
+.location{
+    padding: 64px 0;
+}
+.location .location-info,.location .location-img{
+    width: 50%;
+}
+.location .location-info div,.location .location-img img{
+    padding: 32px;
+}
+.location .location-info div{
+    padding: 64px 32px;
+}
+.location .location-img img{
+    width: 100%;
+}
+.location .location-info div p{
+    margin: 16px 0;
+    line-height: 1.6;
+}
+/* baking */
+.baking{
+    text-align: center;
+    padding: 64px 0;
+}
+.baking .baking-cards{
+    margin-top: 32px;
+}
+.baking  h3{
+    font-size: 30px;
+    margin-bottom: 32px;
+    text-transform: capitalize;
+}
+.baking .baking-cards .baking-card{
+    width: 33.3%;
+}
+.baking .baking-cards .baking-card img{
+    width: 100%;
+}
+.baking .baking-cards .baking-card div{
+    padding: 0 16px;
+}
+.baking .baking-cards .baking-card div h3{
+    font-size: 18px;
+    margin-top: 16px;
+}
+.baking .baking-cards .baking-card div p{
+    padding: 0 20px;
+    line-height: 1.6;
+}
+/* map */
+.map{
+    padding: 64px 0;
+}
+.map .map-info,.map .g-map{
+    width: 50%;
+}
+.map .map-info div{
+    padding: 64px 32px;
+}
+.map .map-info div p{
+    margin: 16px 0;
+}
+.map .G-map iframe{
+    width: 100%;
+}
+.map .G-map div{
+    padding: 0 32px;
+}
+.map .map-info div ul{
+    list-style-type: none;
+}
+.map .map-info div ul li{
+    color: #686868;
+    margin: 16px 0;
+
+}
+.map .map-info div ul li svg{
+    color: #fff;
+    background-color: #ae9768;
+    border: 1px solid #ae9768;
+    width: 25px;
+    height: 25px;
+    font-size: 24px ;
+    padding: 8px;
+    margin-right: 16px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* footer */
+.footer{
+    background-color: #403d38;
+    padding: 64px 0;
+    background-image: url("../images/contact-details-map.png");
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+.footer .footer-part{
+    width: 25%;
+}
+.footer .footer-part div{
+    padding: 0 16px;
+}
+.footer .footer-part h4{
+    color: #fff;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+.footer .footer-part p,.footer .footer-part li{
+    margin: 16px 0;
+    color: #969696;
+}
+.footer .footer-part ul{
+    list-style-type: none;
+}
+.footer .footer-part ul li{
+    padding: 8px 0;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.footer .footer-part ul li:not(:last-child){
+    
+    border-bottom:1px solid rgba(255,255,255,0.05)
+}
+.footer .footer-part ul li svg{
+    margin-right: 16px;
+}
+/* copy right */
+.copy-right{
+    padding: 64px 0;
+    background-color: #353330;
+    text-align: center;
+}
+.copy-right p,.copy-right div div{
+    margin: 32px 0;
+}
+.copy-right svg{
+    color: #fff;
+    background-color: #484540;
+    padding: 8px;
+    width: 30px!important;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 20px;
+    margin: 0 4px;
+    color: #8c8a86;
+}
